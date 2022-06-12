@@ -1,0 +1,80 @@
+body {
+    font: 18px/28px arial,sans-serif;
+    background-color: #333;
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    background-color: #222;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-bottom: 2px solid #6eff3e;
+    box-shadow: 1px 0 5px 1px #6eff3e;
+}
+
+.navbar .logo {
+    font-size: 50px;
+    color: #6eff3e;
+    margin-left: 25px;
+    line-height: 75px;
+    text-shadow: 0px 0px 3px #6eff3e;
+    float: left;
+}
+
+.navbar ul .link{
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 50px;
+    line-height: 75px;
+    float: right;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0 0 2px #fff;
+    transition: 300ms;
+}
+
+.navbar ul .link .tr {
+    background-color: #6eff3e;
+}
+
+.navbar ul a:hover {
+    color: #6eff3e;
+    text-shadow: 0 0 2px #6eff3e;
+}
+
+.container {
+    width: 500px;
+    background-color: #222;
+    position: relative;
+    margin: 200px auto;
+    padding: 25px 50px;
+    border: 2px solid #6eff3e;
+    box-shadow: 0 0 10px 2px #6eff3e;
+    position: relative;
+    animation: fade 1s;
+    -webkit-animation: fade 1s;
+}
+
+.header h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #6eff3e;
+    text-shadow: 0px 0px 5px #6eff3e;
+}
+
+.header p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #6eff3e;
+    text-shadow: 0 0 5px #6eff3e;
+}
+
+@keyframes fade {
+    0% {opacity: 0; top: 50px;}
+    100% {opacity: 1; top: 0px;}
+}
